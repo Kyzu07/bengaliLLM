@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Data — keep processed splits, exclude results and raw downloads
+data/results/
+data/raw/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Models (never commit weights)
+*.bin
+*.safetensors
+*.gguf
